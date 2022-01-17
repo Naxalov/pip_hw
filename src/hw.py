@@ -1,3 +1,5 @@
 #Define function, return 'Hello World'
 def test_add(add):
-    assert add() == 2
+    results = []
+    results.append(add() == 2)
+    return results

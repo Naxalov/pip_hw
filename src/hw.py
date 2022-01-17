@@ -1,4 +1,3 @@
 #Define function, return 'Hello World'
-from main import add
-def test_add():
+def test_add(add):
     assert add() == 2
